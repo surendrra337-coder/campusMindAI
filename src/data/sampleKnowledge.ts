@@ -1,0 +1,261 @@
+import { KnowledgeItem } from '../types';
+
+export const INITIAL_KNOWLEDGE_BASE: KnowledgeItem[] = [
+  {
+    id: 'kb-001',
+    title: 'B.Tech AI & Data Science Program Overview & Intake',
+    category: 'Courses & Curriculum',
+    department: 'Artificial Intelligence & Data Science',
+    content: `The B.Tech in Artificial Intelligence & Data Science (AI & DS) is a 4-year, 8-semester undergraduate degree approved by AICTE and affiliated with State Technical University. 
+Intake capacity is 120 seats per academic year. The program covers Deep Learning, Natural Language Processing, Computer Vision, MLOps, Big Data Analytics, Reinforcement Learning, and Generative AI. 
+Students undertake 2 capstone projects, 1 summer research internship, and utilize the Advanced Supercomputing Lab equipped with NVIDIA A100 GPUs.`,
+    tags: ['AI & DS', 'Intake', 'Syllabus', 'Curriculum', 'B.Tech', 'Machine Learning'],
+    lastUpdated: '2026-08-15',
+    sourceDocument: 'Academic Regulations & Syllabus Bulletin 2026-27 (Doc #AR-2026-BTECH)',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-002',
+    title: 'Undergraduate Admission Eligibility & Entrance Exams',
+    category: 'Admissions',
+    department: 'Admissions Cell',
+    content: `Admission to B.Tech programs requires 10+2 (Higher Secondary) with Physics, Mathematics as mandatory subjects along with Chemistry/Computer Science/Biology. 
+General Category candidates require a minimum aggregate of 60% (55% for SC/ST/OBC/PwD candidates). 
+Admission routes:
+1. State Engineering Entrance Examination (Counseling - 70% seats)
+2. JEE Main Score Direct Merit Quota (20% seats, minimum 75 percentile required)
+3. Management/Institutional NRI Merit Quota (10% seats based on Institute Written Assessment & Interview).`,
+    tags: ['Admission', 'Eligibility', 'JEE Main', 'Entrance Exam', 'Cutoff', '12th Criteria'],
+    lastUpdated: '2026-06-10',
+    sourceDocument: 'Admission Prospectus 2026-2027 Section 3.2',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-003',
+    title: 'Tuition Fee Structure & Payment Deadlines (2026-27)',
+    category: 'Fees & Scholarships',
+    department: 'Finance & Accounts',
+    content: `Annual Tuition Fee for B.Tech programs is ₹1,45,000 per annum (split into ₹72,500 per semester). 
+Additional one-time fees at admission:
+- Caution Money (Refundable): ₹10,000
+- Registration & Orientation Fee: ₹5,000
+- Library & Lab Security Deposit: ₹5,000
+Semester payment deadlines:
+- Odd Semester (Autumn): Due by August 10th
+- Even Semester (Spring): Due by January 15th
+Late fee penalty of ₹100/day applies up to 14 days post deadline. Fee payments are handled via the ERP portal through UPI, Net Banking, or RTGS/NEFT.`,
+    tags: ['Fee', 'Tuition', 'Payment', 'Installment', 'Caution Money', 'Accounts'],
+    lastUpdated: '2026-07-01',
+    sourceDocument: 'Finance Circular Fin-Cir/2026/04',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-004',
+    title: 'Institutional Merit & Need-Based Scholarships',
+    category: 'Fees & Scholarships',
+    department: 'Scholarship Cell',
+    content: `The Institute awards over ₹1.2 Crores annually in financial aid:
+1. Apex Chancellor's Merit Scholarship: 100% tuition waiver for 10+2 scores > 95% or JEE Main percentile > 97.
+2. Dean's Academic Excellence Scholarship: 50% tuition waiver for 10+2 aggregate between 90% and 94.9%.
+3. Women in Tech Fellowship: 25% tuition fee waiver for all female students enrolling in AI & DS or CSE.
+4. Need-Based Economic Concession: Up to 50% waiver for students with annual family income below ₹3.5 Lakhs (Income Certificate required).
+5. Post-Matric SC/ST/OBC Scholarships as per State & National Scholarship Portal (NSP) norms.
+Renewal requires maintaining a minimum CGPA of 8.0 without backlogs and 80% attendance.`,
+    tags: ['Scholarship', 'Financial Aid', 'Concession', 'Merit', 'Need-based', 'Waiver'],
+    lastUpdated: '2026-05-20',
+    sourceDocument: 'Office of Dean Student Welfare - Scholarship Guidelines Rev 5',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-005',
+    title: 'Campus Placements, Top Recruiters & Package Statistics',
+    category: 'Placements',
+    department: 'Training & Placement Cell (T&P)',
+    content: `Placement Highlights for recent batch:
+- Highest International Package: ₹44.5 LPA (Offered by global tech leader)
+- Highest Domestic Package: ₹38.0 LPA
+- Average Package: ₹9.4 LPA (B.Tech AI & DS average: ₹11.2 LPA)
+- Median Package: ₹8.2 LPA
+- Placement Percentage: 94.8% of eligible students placed
+Key Recruiters: Google, Microsoft, Amazon, NVIDIA, AMD, Adobe, Cisco, Oracle, Infosys Springboard, TCS Digital, Cognizant GenC Next, Zomato, Razorpay.
+Placement season commences from 7th semester (July). Mock interviews, LeetCode competitive coding bootcamps, and resume clinics are held from the 5th semester onwards.`,
+    tags: ['Placement', 'Recruiters', 'Salary', 'Packages', 'Highest Package', 'Average Package', 'Jobs'],
+    lastUpdated: '2026-09-02',
+    sourceDocument: 'Annual T&P Placement Report 2025-26',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-006',
+    title: 'Hostel Accommodation, Facilities & Mess Charges',
+    category: 'Hostel & Life',
+    department: 'Hostel Administration',
+    content: `On-campus accommodation is available for 1,800+ boys and 1,200+ girls in separate multi-story hostels.
+Room Options & Annual Charges:
+- Triple Occupancy (Non-AC): ₹65,000 / year
+- Double Occupancy (Air Conditioned): ₹92,000 / year
+- Single Occupancy (Final year merit students, AC): ₹1,15,000 / year
+Mess Charges: ₹42,000 / year (Includes 4 meals: Breakfast, Lunch, Evening Snacks, Dinner). Vegetarian and special dietary menus available.
+Hostel Amenities: High-speed Wi-Fi 6 (1 Gbps backbone), 24/7 power backup, solar water heaters, gym, indoor badminton court, laundry service, study lounges, and round-the-clock biometric security with CCTV.
+Hostel entry deadline / curfew: 9:30 PM on weekdays, 10:30 PM on weekends.`,
+    tags: ['Hostel', 'Rooms', 'Mess', 'Accommodation', 'Food', 'Curfew', 'Charges'],
+    lastUpdated: '2026-06-25',
+    sourceDocument: 'Chief Warden Handbook & Hostel By-Laws 2026',
+    verified: true,
+    priority: 'medium'
+  },
+  {
+    id: 'kb-007',
+    title: 'Attendance Policy & Mandatory 75% Requirement',
+    category: 'Rules & Policies',
+    department: 'Office of Academic Affairs',
+    content: `As per University Ordinance 4.1, a minimum of 75% physical attendance in every registered course (theory and practical separately) is mandatory to be eligible to appear in End-Semester Examinations.
+Attendance relaxations:
+- Genuine Medical Grounds: Up to 10% relaxation (minimum 65% mandatory) upon submitting verified medical certificates from the Chief Medical Officer within 7 days of illness.
+- Official Representation: Students representing the college in sports, hackathons, or cultural conferences are granted Duty Leave (DL) upon prior HOD approval.
+Students below 65% attendance under any circumstances will receive a 'De-barred' grade and must repeat the course during summer term.`,
+    tags: ['Attendance', '75 Percent', 'Rules', 'Medical Leave', 'Duty Leave', 'Debarred'],
+    lastUpdated: '2026-08-01',
+    sourceDocument: 'University Academic Ordinance Chapter IV Sec 12',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-008',
+    title: 'Examination Scheme, Grading System & SGPA/CGPA Calculation',
+    category: 'Examinations',
+    department: 'Controller of Examinations (CoE)',
+    content: `The institution follows a 10-Point Absolute Grading System:
+- Mid-Semester Examination (Continuous Assessment): 40% weightage (Internal tests 20%, assignments/quizzes 10%, attendance/class participation 10%).
+- End-Semester Examination: 60% weightage.
+Grades & Grade Points:
+- O (Outstanding, >=90%): 10 GP
+- A+ (Excellent, 80-89%): 9 GP
+- A (Very Good, 70-79%): 8 GP
+- B+ (Good, 60-69%): 7 GP
+- B (Above Average, 50-59%): 6 GP
+- C (Pass, 40-49%): 5 GP
+- F (Fail, <40%): 0 GP
+Passing criteria: Minimum 40% aggregate in each subject and minimum 35% in the End-Semester Examination. Backlog examinations are held every semester.`,
+    tags: ['Exam', 'Grading', 'CGPA', 'SGPA', 'Marks', 'Internal Assessment', 'Backlog'],
+    lastUpdated: '2026-07-28',
+    sourceDocument: 'Controller of Examination Manual 2026 Section 5',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-009',
+    title: 'Central Digital Library & Research Resources',
+    category: 'Campus & Facilities',
+    department: 'Library Services',
+    content: `The Dr. APJ Abdul Kalam Central Digital Library is open 24x7 during examination months and from 8:00 AM to 11:00 PM on regular days.
+Key Resources:
+- Over 85,000 print books and 15,000 reference monographs.
+- Subscriptions to IEEE Xplore, ScienceDirect, ACM Digital Library, SpringerLink, and Nature.
+- 100 dedicated multimedia workstations for literature search and coding.
+- Remote access VPN provided to all students via college email ID.
+- Book bank facility: Free textbook sets issued to eligible students for entire semester duration.`,
+    tags: ['Library', 'Books', 'Research', 'IEEE', 'Digital Library', 'Timings'],
+    lastUpdated: '2026-04-12',
+    sourceDocument: 'Library User Charter & Resource Guide 2026',
+    verified: true,
+    priority: 'medium'
+  },
+  {
+    id: 'kb-010',
+    title: 'Supercomputing Lab & Advanced AI Hardware',
+    category: 'Campus & Facilities',
+    department: 'Artificial Intelligence & Data Science',
+    content: `The department houses the 'Turing-Hopper High Performance Computing (HPC) Center':
+Hardware Inventory:
+- 4x NVIDIA DGX A100 Workstations (320GB Tensor Core VRAM)
+- 30x Alienware AI Workstations with RTX 4090 GPUs for undergraduate machine learning labs
+- High-speed InfiniBand 200Gbps network fabric with 200TB NVMe storage cluster
+- Pre-installed with PyTorch, TensorFlow, Hugging Face Transformers, CUDA 12, JupyterHub, and Kubernetes orchestrator.
+Access policy: Every student receives an individual SSH key and JupyterHub account upon registering for AI courses. Heavy cluster training jobs can be scheduled through the SLURM workload manager.`,
+    tags: ['GPU', 'DGX', 'NVIDIA', 'Supercomputing', 'AI Lab', 'PyTorch', 'HPC'],
+    lastUpdated: '2026-08-20',
+    sourceDocument: 'HPC Center Infrastructure Blueprint 2026-27',
+    verified: true,
+    priority: 'medium'
+  },
+  {
+    id: 'kb-011',
+    title: 'Emergency Contacts, Anti-Ragging & Campus Health Services',
+    category: 'Important Contacts',
+    department: 'Student Affairs & Administration',
+    content: `Emergency & Administrative Helplines:
+- 24/7 Campus Medical Center Helpline: +91 98765 43210 (Ambulance available on site)
+- Chief Proctor & Security Control Room: +91 98765 43211 / Ext. 108
+- Anti-Ragging Helpline (Zero Tolerance Policy): 1800-180-5522 (Toll Free) or antiragging@apex.edu
+- Dean of Academic Affairs: dean.academics@apex.edu | Office: Main Admin Block, Room 204
+- Training & Placement Office: placements@apex.edu | T&P Tower, 3rd Floor
+- Women's Grievance Redressal Cell (ICC): icc@apex.edu | Presiding Officer: Dr. Shalini Sharma
+- Student Counseling & Mental Wellness Center: counseling@apex.edu (Confidential appointments).`,
+    tags: ['Emergency', 'Helpline', 'Anti-Ragging', 'Medical', 'Doctor', 'Doctor', 'Contacts', 'Dean'],
+    lastUpdated: '2026-09-01',
+    sourceDocument: 'Official Campus Directory & Safety Protocols 2026',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-012',
+    title: 'Student Clubs, Hackathons & Annual Technical Fest (Cognitio)',
+    category: 'Campus & Facilities',
+    department: 'Student Activity Council',
+    content: `Campus hosts 25+ student-led clubs across technical, cultural, and sports domains:
+1. Google Developer Student Club (GDSC) & ACM Student Chapter
+2. AI Research Society (AIRS) – Organizes weekly paper reading groups and Kaggle sprints
+3. RoboTech Club – Autonomous robotics, drone development, and e-Yantra participation
+4. Rotaract & NSS – Community outreach and blood donation drives
+Flagship Events:
+- Cognitio: Annual International Techno-Management Fest (held every October with ₹10 Lakhs in hackathon prizes)
+- Spandan: Annual Cultural & Arts Fest (March)
+- Apex Premier League (APL): Inter-department sports tournament.`,
+    tags: ['Clubs', 'Fest', 'Hackathon', 'GDSC', 'Cognitio', 'Events', 'Cultural'],
+    lastUpdated: '2026-07-15',
+    sourceDocument: 'Student Affairs Extracurricular Calendar 2026',
+    verified: true,
+    priority: 'medium'
+  },
+  {
+    id: 'kb-013',
+    title: 'Admission Document Verification Checklist',
+    category: 'Admissions',
+    department: 'Admissions Cell',
+    content: `Mandatory documents required during physical reporting / document verification:
+1. Class 10th (Secondary) Mark Sheet & Certificate (Proof of Date of Birth)
+2. Class 12th (Higher Secondary) Mark Sheet & Passing Certificate
+3. Entrance Exam Score Card (JEE Main / State CET Rank Card)
+4. Seat Allotment Letter issued by Counseling Authority
+5. Transfer Certificate (TC) & Character Certificate from previous institution
+6. Migration Certificate (Original)
+7. Category / Caste Certificate (OBC-NCL / SC / ST / EWS) if applicable, issued after April 1st of current year
+8. Medical Fitness Certificate signed by a registered Medical Practitioner (MBBS)
+9. 6 Passport-size color photographs and Aadhaar Card copy of candidate & parents.`,
+    tags: ['Documents', 'Checklist', 'Verification', 'Reporting', 'Certificates', 'Admission Form'],
+    lastUpdated: '2026-06-18',
+    sourceDocument: 'Admissions Cell Document Verification Circular 2026',
+    verified: true,
+    priority: 'high'
+  },
+  {
+    id: 'kb-014',
+    title: 'Internship Policy & Industry Credit Transfer',
+    category: 'Courses & Curriculum',
+    department: 'Academic Council',
+    content: `All B.Tech students must complete a minimum of two internships before graduation:
+- Mini Internship (4 weeks): Post 4th semester (Summer break) focusing on industrial training or open-source contribution.
+- Capstone Industry / Research Internship (6 months): In the 8th semester. Students who secure a semester-long internship at reputed product companies or research labs can convert full 8th-semester coursework into 12 industrial research credits.
+Students must submit weekly logbooks signed by industry mentors and appear for a Viva-Voce defense before the departmental evaluation committee.`,
+    tags: ['Internship', 'Industrial Training', 'Credits', '8th Semester', 'Research', 'Placement'],
+    lastUpdated: '2026-05-30',
+    sourceDocument: 'Internship Policy Guidelines Version 3.4',
+    verified: true,
+    priority: 'medium'
+  }
+];

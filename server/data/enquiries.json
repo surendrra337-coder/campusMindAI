@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ENQ-901",
+    "fullName": "Sneha Gupta",
+    "email": "sneha.gupta2008@gmail.com",
+    "phone": "+91 98234 56789",
+    "targetCourse": "B.Tech Artificial Intelligence & Data Science",
+    "currentQualification": "12th Science (PCM) - 94.2%",
+    "city": "Pune",
+    "preferredYear": "2027",
+    "message": "Interested in AI & DS program. Would like to inquire about merit scholarship cutoffs and hostel allotment rules.",
+    "status": "Contacted",
+    "submittedAt": "2026-11-17T11:20:00Z"
+  },
+  {
+    "id": "ENQ-902",
+    "fullName": "Devansh Verma",
+    "email": "devansh.verma@outlook.com",
+    "phone": "+91 91234 11223",
+    "targetCourse": "B.Tech Computer Science & Engineering",
+    "currentQualification": "12th Science (PCM) - 89.0%, JEE Main 92.4%ile",
+    "city": "Indore",
+    "preferredYear": "2027",
+    "message": "Can I apply for state quota counseling with my JEE Main percentile?",
+    "status": "New",
+    "submittedAt": "2026-11-19T14:40:00Z"
+  }
+]

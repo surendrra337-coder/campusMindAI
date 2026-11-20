@@ -1,0 +1,47 @@
+[
+  {
+    "id": "TKT-1082",
+    "studentName": "Aarav Sharma",
+    "rollNumber": "23AI014",
+    "email": "aarav.23ai014@apex.edu",
+    "category": "Academic",
+    "subject": "Request for Elective Course Change (Computer Vision to Reinforcement Learning)",
+    "message": "I would like to request a change of my 6th-semester elective from Computer Vision (CS602) to Deep Reinforcement Learning (AI604) to align with my capstone research topic.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "createdAt": "2026-11-18T10:30:00Z",
+    "updatedAt": "2026-11-19T14:20:00Z",
+    "assignedTo": "Academic Office - Dr. Meenakshi",
+    "resolutionNotes": "Forwarded to HOD for prerequisite clearance."
+  },
+  {
+    "id": "TKT-1079",
+    "studentName": "Priya Nair",
+    "rollNumber": "24CS089",
+    "email": "priya.nair@apex.edu",
+    "category": "Hostel",
+    "subject": "Wi-Fi Connectivity Issue in Kaveri Girls Hostel (3rd Floor)",
+    "message": "The Wi-Fi access point in Kaveri Block B 3rd Floor is experiencing frequent packet drops and high latency since Monday evening.",
+    "status": "Resolved",
+    "priority": "High",
+    "createdAt": "2026-11-16T18:45:00Z",
+    "updatedAt": "2026-11-17T11:00:00Z",
+    "assignedTo": "IT Infrastructure Team",
+    "resolutionNotes": "Router firmware updated and access point channel reconfigured. Ping restored to under 12ms."
+  },
+  {
+    "id": "TKT-1074",
+    "studentName": "Rohan Deshmukh",
+    "rollNumber": "22EC045",
+    "email": "rohan.d@apex.edu",
+    "category": "Fee & Scholarship",
+    "subject": "Verification of Income Certificate for Merit-Cum-Means Concession",
+    "message": "Submitted updated Tehsildar verified income certificate on Nov 10th for the 25% tuition fee waiver. Requesting status update on portal update.",
+    "status": "Submitted",
+    "priority": "Medium",
+    "createdAt": "2026-11-19T09:15:00Z",
+    "updatedAt": "2026-11-19T09:15:00Z",
+    "assignedTo": "Finance & Accounts",
+    "resolutionNotes": "Pending finance committee review."
+  }
+]
