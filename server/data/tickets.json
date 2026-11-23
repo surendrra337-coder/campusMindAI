@@ -1,5 +1,20 @@
 [
   {
+    "id": "TKT-3888",
+    "studentName": "surendra singh rathore",
+    "rollNumber": "26BCON0208",
+    "email": "Surendra.26bcon0208@jecrcu.edu.in",
+    "category": "Technical Support",
+    "subject": "Wi-Fi Connectivity Issue",
+    "message": "Unable to connect to campus Wi-Fi. Please help resolve this issue.",
+    "status": "Submitted",
+    "priority": "Medium",
+    "createdAt": "2026-11-20T14:27:34.759Z",
+    "updatedAt": "2026-11-20T14:27:34.759Z",
+    "assignedTo": "Helpdesk Dispatch",
+    "resolutionNotes": "Ticket received and queued for review."
+  },
+  {
     "id": "TKT-1082",
     "studentName": "Aarav Sharma",
     "rollNumber": "23AI014",
